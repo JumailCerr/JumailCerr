@@ -1,4 +1,3 @@
-
 clc; clear; close all; warning off all; 
   
 Img = imread('sayur.jpg'); figure, imshow(Img); 
@@ -26,7 +25,3 @@ G(mask) = 255;
 B(mask) = 0; RGB = cat(3,R,G,B); figure, imshow(RGB); 
   
 crop = imcrop(Img,[min(col) min(row) max(col)-min(col) max(row)-min(row)]); figure, imshow(crop);
-<!---
-JumailCerr/JumailCerr is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
